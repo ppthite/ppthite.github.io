@@ -11,5 +11,5 @@
 ## Websites I Recommend
 - [Google](https://www.wikipedia.com) - Its the best source for general knowledge
 about basically any topic
-- [TED Talks](https://myapps.classlink.com/home) - This is where I access all the stuff for my highschool
+- [WakeID](https://myapps.classlink.com/home) - This is where I access all the stuff for my highschool
 classes so its indespensible for me right now

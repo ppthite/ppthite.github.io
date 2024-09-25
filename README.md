@@ -14,7 +14,6 @@ about basically any topic
 - [WakeID](https://myapps.classlink.com/home) - This is where I access all the stuff for my highschool
 classes so its indespensible for me right now
 
-# DDoS Attack Sequence Diagram
 
 ```mermaid
 sequenceDiagram

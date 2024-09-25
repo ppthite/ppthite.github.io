@@ -1,7 +1,7 @@
 # DDoS Attack Sequence Diagram
 
 ```mermaid
-sequenceDiagram
+sequenceDiagram;
     participant Attacker/Hacker
     participant BotNet
     participant WebServer

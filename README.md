@@ -13,3 +13,28 @@
 about basically any topic
 - [WakeID](https://myapps.classlink.com/home) - This is where I access all the stuff for my highschool
 classes so its indespensible for me right now
+
+# DDoS Attack Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant Attacker/Hacker
+    participant BotNet
+    participant WebServer
+    participant Firewall
+    
+    Attacker->>BotNet: Command to launch attack
+    BotNet->>WebServer: Flood traffic to overload the server
+    WebServer->>Firewall: Request analysis of incoming traffic
+    Firewall->>WebServer: Traffic analysis and alert
+    Firewall->>BotNet: Block IPs from bots
+    BotNet->>Attacker: Report blocked bots
+
+# Documentation:
+
+## In this diagram on DDOS attacks:
+
+- The **attacker** starts the attack by controlling the botnet.
+- The **botnet** then overwhelms the web server by sending massive amounts of traffic to the server.
+- The **web server** requests a traffic analysis from the firewall to help manage the load that the botnet is sending.
+- The **firewall** inspects the traffic, identifies malicious traffic, and blocks the botnet's IPs to mitigate the attack.

@@ -14,9 +14,9 @@ sequenceDiagram
     Firewall->>BotNet: Block IPs from bots
     BotNet->>Attacker: Report blocked bots
 
-### Documentation:
+# Documentation:
 
-In this diagram on DDOS attacks:
+## In this diagram on DDOS attacks:
 
 - The **attacker** starts the attack by controlling the botnet.
 - The **botnet** then overwhelms the web server by sending massive amounts of traffic to the server.

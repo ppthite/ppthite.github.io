@@ -13,6 +13,7 @@ sequenceDiagram
     Firewall->>WebServer: Traffic analysis and alert
     Firewall->>BotNet: Block IPs from bots
     BotNet->>Attacker: Report blocked bots
+```
 
 # Documentation:
 
